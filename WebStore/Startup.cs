@@ -76,11 +76,9 @@ namespace WebStore
                 //opt.Conventions.Add(new TestConvention());
             });
 
-            services.AddAutoMapper(opt =>
-            {
-                opt.CreateMap<Employee, Employee>();
-            });
+           // services.AddAutoMapper(opt => opt.CreateMap<Employee, Employee>());
 
+           
             //AutoMapper.Mapper.Initialize(opt =>
             //{
             //    opt.CreateMap<Employee, Employee>();
